@@ -40,5 +40,6 @@ public class Payment implements Serializable {
     @ManyToOne
     private TypesOfPayment typesOfPayment;
 
+    private Object Ulugaka;
 
 }
